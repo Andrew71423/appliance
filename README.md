@@ -9,7 +9,7 @@
 
 ## How to start
 
-* Clone this repo
+* Clone this repo and enter the folder appliance
 
 * `sudo docker-compose up -d`
 * `sudo chown -R 1000:1000 ./nodered`
