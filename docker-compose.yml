@@ -19,7 +19,7 @@ services:
     restart: always
 
   nodered:
-    image: nodered/node-red
+    image: digitalhhz/nodered-dhhz
     ports:
       - "1880:1880"
     volumes:
