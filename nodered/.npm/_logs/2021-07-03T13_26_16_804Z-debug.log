@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   '--no-update-notifier',
+1 verbose cli   '--no-fund',
+1 verbose cli   'start',
+1 verbose cli   '--cache',
+1 verbose cli   '/data/.npm',
+1 verbose cli   '--',
+1 verbose cli   '--userDir',
+1 verbose cli   '/data' ]
+2 info using npm@6.14.12
+3 info using node@v10.24.1
+4 verbose config Skipping project config: /usr/src/node-red/.npmrc. (matches userconfig)
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info lifecycle node-red-project@0.0.1~prestart: node-red-project@0.0.1
+7 info lifecycle node-red-project@0.0.1~start: node-red-project@0.0.1
+8 verbose lifecycle node-red-project@0.0.1~start: unsafe-perm in lifecycle true
+9 verbose lifecycle node-red-project@0.0.1~start: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/usr/src/node-red/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+10 verbose lifecycle node-red-project@0.0.1~start: CWD: /usr/src/node-red
+11 silly lifecycle node-red-project@0.0.1~start: Args: [ '-c', 'node-red -v $FLOWS "--userDir" "/data"' ]
+12 info lifecycle node-red-project@0.0.1~start: Failed to exec start script
+13 verbose stack Error: node-red-project@0.0.1 start: `node-red -v $FLOWS "--userDir" "/data"`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:48:18)
+13 verbose stack     at ChildProcess.emit (events.js:198:13)
+13 verbose stack     at maybeClose (internal/child_process.js:982:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+14 verbose pkgid node-red-project@0.0.1
+15 verbose cwd /usr/src/node-red
+16 verbose Linux 5.10.17-v7l+
+17 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "--no-update-notifier" "--no-fund" "start" "--cache" "/data/.npm" "--" "--userDir" "/data"
+18 verbose node v10.24.1
+19 verbose npm  v6.14.12
+20 error code ELIFECYCLE
+21 error syscall spawn
+22 error file sh
+23 error errno ENOENT
+24 error node-red-project@0.0.1 start: `node-red -v $FLOWS "--userDir" "/data"`
+24 error spawn ENOENT
+25 error Failed at the node-red-project@0.0.1 start script.
+25 error This is probably not a problem with npm. There is likely additional logging output above.
+26 verbose exit [ 1, true ]
