@@ -13,5 +13,8 @@
 
 * `sudo docker-compose up -d`
 * `sudo chown -R 1000:1000 ./nodered`
+* Go to your-host-ip:1880/ui
+
+
 
 ## FAQ
