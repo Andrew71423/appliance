@@ -11,6 +11,7 @@
 
 * Clone this repo and enter the folder appliance
 * `sudo git clone`
+* `cd appliance`
 * `sudo chown -R 1000:1000 ./nodered`
 * `sudo docker-compose up -d`
 
