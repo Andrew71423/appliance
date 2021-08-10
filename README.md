@@ -2,19 +2,12 @@
 
 ## Provided services
 
-* Mosquitto MQTT
-* Node Red
-* Avahi
-* Feinstaub Dashboard
+* Node Red + Custom Dashboard for Air Quality Monitoring
+
 
 ## How to start
 
-* Clone this repo and enter the folder appliance
-* `sudo git clone`
-* `cd appliance`
-* `sudo chown -R 1000:1000 ./nodered`
-* `sudo docker-compose up -d`
-
+* `sudo docker run -it -p 1880:1880 digitalhhz/nodered-dhhz`
 * Go to your-host-ip:1880/ui
 
 ![image](https://user-images.githubusercontent.com/64777432/124358217-98c3d580-dc1f-11eb-9f9a-7aacd25adb8b.png)
